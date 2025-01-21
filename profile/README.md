@@ -4,9 +4,10 @@ The Population Dynamics Lab (PDL) is an open science forum currently hosted at t
 
 ## How to Run PDL Repos Locally
 1. Install [docker](https://docs.docker.com/engine/install/)
-2. Install [repo2docker](https://repo2docker.readthedocs.io/en/latest/install.html)
-3. Run repo2docker `jupyter-repo2docker https://github.com/Population-Dynamics-Lab/repo-name`
-4. Copy the link in the console
-5. Go to View > Open Jupyter Lab
-6. Start Rstudio
-7. Run the code
+  - If you are on ARM Mac you can install [OrbStack](https://orbstack.dev/download) as a drop-in replacement for Docker
+3. Install [repo2docker](https://repo2docker.readthedocs.io/en/latest/install.html)
+4. Run repo2docker `jupyter-repo2docker https://github.com/Population-Dynamics-Lab/repo-name`
+5. Copy the link in the console
+6. Go to View > Open Jupyter Lab
+7. Start Rstudio
+8. Run the code
